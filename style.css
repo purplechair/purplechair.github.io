@@ -3,7 +3,46 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Ubuntu', sans-serif;
-    height: 100vh
+    height: 100vh;
+    background: rgba(255, 103, 79, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: rgba(168, 35, 8, 0.18);
+    padding: 60px;
+    width: 750px;
+    max-width: calc(100% - 60px);
+    border-radius: 5px;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-element span {
+    margin-bottom: 10px;
+}
+
+.radio-buttons label {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+form button {
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: tomato;
+    border-radius: 5px;
+    border: none;
+    font-size: 22;
+
 }
