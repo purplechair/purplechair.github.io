@@ -9,8 +9,11 @@
 
 </head>
 <body>
+
+    <script type="text/javascript">var submitted=false</script>
+    <iframe name="confirm" id="confirm" style="display:none;" onload="if(submitted){window.location='submission.html';}"></iframe>
     
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZ7Xq5tR_nZmJcEzNOiOtl5mrrQ5BbzCxoo_jH1ahjzl5Ahw/formResponse" method="post">
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScZ7Xq5tR_nZmJcEzNOiOtl5mrrQ5BbzCxoo_jH1ahjzl5Ahw/formResponse" method="post" target="confirm" onsubmit="submitted=true">
 
         <h1 align="center">The AmiAwards: Voting Commences</h1>
         <h3 align="center">May the best win.</h3>
@@ -288,10 +291,9 @@
 
         <div class="form-element radio-buttons">
             <h2>Best Obama</h2>
-            <pre>
-                THE WHITE HOUSE
-                THE WHITE HOUSE IS REAL
-            </pre>
+            <h3 align="center" style="font-size: 200%;">THE WHITE HOUSE</h3>
+            <h3 align="center" style="font-size: 200%;">THE WHITE HOUSE IS REAL</h3>
+            <img src="obama.png" alt="Obama" style="float:right;">
             <label for="MILK Obama">
                 <input type="radio" name="entry.1178968185" id="MILK Obama" value="MILK Obama" required>
                 <span>MILK Obama</span>
