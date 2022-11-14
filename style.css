@@ -9,9 +9,10 @@ body {
     background: rgba(255, 103, 79, 0.55);
     display: flex;
     align-items: center;
+    align-content: center;
+    align-self: center;
     justify-content: center;
-    position: fixed;
-    height: 100vh;
+    position: static;
 }
 
 form {
